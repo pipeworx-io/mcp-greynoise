@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-greynoise",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "GreyNoise Community MCP — internet scanner classification (free tier with key)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-greynoise": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "greynoise"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-greynoise"
+    "url": "git+https://github.com/pipeworx-io/mcp-greynoise.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-c314a8d27628e7a5bdc05eb6bed69ae0de668c65f8b38403d1685a401bf2fb69",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }
