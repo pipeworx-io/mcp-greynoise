@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ip_context",
+    "description": "Classify an IPv4 address using the GreyNoise Community dataset (BYO API key). Returns: noise (mass internet scanner?), riot (known-good service like Google/AWS?), classification (malicious|benign|unknown), entity name, last-seen date, and a viz.greynoise.io deep link for SOC triage.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ip": {
+          "type": "string",
+          "description": "IPv4 address"
+        }
+      },
+      "required": [
+        "ip"
+      ]
+    }
+  }
+]
