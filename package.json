@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-greynoise",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "GreyNoise Community MCP — internet scanner classification (free tier with key)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "greynoise",
     "gatewaySlug": "greynoise",
-    "sourceHash": "v1-7b6c7b4e6a66f1bd36d199af70cc4f1d71c2dec83ef416a5b7e61e3d5a51c594",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-cd5a88d80cbca16bfb3c42b844354358a847b5cb3a1c0922c9ffe01fd18f375a",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
